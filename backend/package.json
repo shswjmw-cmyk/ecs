@@ -1,0 +1,30 @@
+```json
+{
+  "name": "ecs-interview-backend",
+  "version": "1.0.0",
+  "description": "专家访谈助手后端服务",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:studio": "prisma studio",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.0.0",
+    "bull": "^4.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "express-sse": "^0.5.3",
+    "jsonwebtoken": "^9.0.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0",
+    "prisma": "^5.0.0"
+  }
+}
+```
